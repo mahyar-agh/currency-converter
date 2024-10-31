@@ -10,7 +10,7 @@ import ErrorMessage from "./ErrorMessage";
 import useFetch from "../hooks/useFetch";
 
 const KEY = "freec9hAAuaO3bpXscLUjhaBIlgFs10E";
-const URL = `http://api.navasan.tech/latest/?api_key=${KEY}&item=usd`;
+const URL = `https://api.navasan.tech/latest/?api_key=${KEY}&item=usd`;
 
 const StyledConverter = styled.div`
   width: 51rem;
